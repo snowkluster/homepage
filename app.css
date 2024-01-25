@@ -1,0 +1,44 @@
+ /* blinking cursor */
+.blink_me {
+  animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+BODY { font-family : JetBrains Mono, monospace;  color: snow; background-color: #1a1b26;}
+  P { font-family : JetBrains Mono, monospace; color: snow; margin:0px; padding: 0px;}
+  A:visited { text-decoration : none; margin : 0px; padding : 0px; color: #7aa2f7;}
+  A:link    { text-decoration : none; margin : 0px; padding : 0px; color: #7aa2f7;}
+  A:hover   { text-decoration: none; color : #edf2f4; margin : 0px; padding : 0px;}
+  A:active  { margin : 0px; padding : 0px;}
+  html, body {
+    height: 100%;
+  }
+  html {
+    display: table;
+    margin: auto;
+  }
+
+  body {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(155, 155, 155, 0.5) transparent; 
+  }
+
+  ::-webkit-scrollbar {
+    width: 9px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(155, 155, 155, 0.5);
+    border-radius: 20px;
+    border: transparent;
+  }
