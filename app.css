@@ -43,7 +43,7 @@ BODY { font-family : JetBrains Mono, monospace;  color: snow; background-color: 
     border: transparent;
   }
 
-  @media only screen and (max-width: 383px) {
+  @media only screen and (max-width: 385px) {
     h1 {
       font-size: 1.5rem;
     }
@@ -56,5 +56,4 @@ BODY { font-family : JetBrains Mono, monospace;  color: snow; background-color: 
       font-size: 1rem;
     }
   
-    /* You may need additional styles here depending on your specific needs */
   }
