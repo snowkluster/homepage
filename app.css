@@ -16,7 +16,7 @@
   src: url('fonts/JetBrainsMono-Regular.woff2') format('woff2');
 }
 
-BODY { font-family : "JetBrains Mono", monospace;  color: snow; background-color: #1a1b26;zoom: 120%;}
+BODY { font-family : "JetBrains Mono", monospace;  color: snow; background-color: #1a1b26;zoom: 100%;}
   P { font-family : "JetBrains Mono", monospace; color: snow; margin:0px; padding: 0px;}
   A:visited { text-decoration : none; margin : 0px; padding : 0px; color: #7aa2f7;}
   A:link    { text-decoration : none; margin : 0px; padding : 0px; color: #7aa2f7;}
