@@ -8,6 +8,16 @@
     opacity: 0;
   }
 }
+
+@font-face {
+  font-family : JetBrains Mono;
+  font-style : normal;
+  font-weight : 400;
+  src:local(''),
+      url('fonts/jetbrains-mono-latin-ext-400-normal.woff2')
+      url('fonts/jetbrains-mono-latin-ext-400-normal.woff')
+}
+
 BODY { font-family : JetBrains Mono, monospace;  color: snow; background-color: #1a1b26;}
   P { font-family : JetBrains Mono, monospace; color: snow; margin:0px; padding: 0px;}
   A:visited { text-decoration : none; margin : 0px; padding : 0px; color: #7aa2f7;}
