@@ -14,8 +14,8 @@
   font-style : normal;
   font-weight : 400;
   src:local(''),
-      url('fonts/jetbrains-mono-latin-ext-400-normal.woff2')
-      url('fonts/jetbrains-mono-latin-ext-400-normal.woff')
+      url('fonts/jetbrains-mono-latin-ext-400-normal.woff') format('woff'),
+      url('fonts/jetbrains-mono-latin-ext-400-normal.woff2');
 }
 
 BODY { font-family : "JetBrains Mono", monospace;  color: snow; background-color: #1a1b26;}
