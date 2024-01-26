@@ -10,15 +10,14 @@
 }
 
 @font-face {
-  font-family: "JetBrainsMono";
+  font-family: "JetBrains Mono";
   font-style: normal;
-  font-weight: normal;
-  src: url('./fonts/jetbrains-mono-latin-ext-400-normal.woff') format('woff'),
-       url('./fonts/jetbrains-mono-latin-ext-400-normal.woff2') format('woff2');
+  font-weight: 400;
+  src: url('fonts/JetBrainsMono-Regular.woff2') format('woff2');
 }
 
-BODY { font-family : "JetBrainsMono", monospace;  color: snow; background-color: #1a1b26;}
-  P { font-family : "JetBrainsMono", monospace; color: snow; margin:0px; padding: 0px;}
+BODY { font-family : "JetBrains Mono", monospace;  color: snow; background-color: #1a1b26;}
+  P { font-family : "JetBrains Mono", monospace; color: snow; margin:0px; padding: 0px;}
   A:visited { text-decoration : none; margin : 0px; padding : 0px; color: #7aa2f7;}
   A:link    { text-decoration : none; margin : 0px; padding : 0px; color: #7aa2f7;}
   A:hover   { text-decoration: none; color : #edf2f4; margin : 0px; padding : 0px;}
