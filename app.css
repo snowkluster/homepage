@@ -10,9 +10,9 @@
 }
 
 @font-face {
-  font-family : "JetBrainsMono";
-  font-style : normal;
-  font-weight : 400;
+  font-family: "JetBrainsMono";
+  font-style: normal;
+  font-weight: normal;
   src:local(''),
       url('fonts/jetbrains-mono-latin-ext-400-normal.woff') format('woff'),
       url('fonts/jetbrains-mono-latin-ext-400-normal.woff2');
