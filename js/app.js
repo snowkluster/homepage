@@ -16,7 +16,7 @@ function showTime() {
 
 	const formattedDate = date.toLocaleString("en-GB", options);
 	const [dayOfWeek, dateStr, time] = formattedDate.split(", ");
-	const mq = window.matchMedia( "(min-width: 338px)" );
+	const mq = window.matchMedia( "(min-width: 385px)" );
 	if (mq.matches){
 		dateElement.innerHTML = `<h2>${dayOfWeek}, ${time} | ${dateStr}</h2>`;
 	} else {
