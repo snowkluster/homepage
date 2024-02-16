@@ -84,5 +84,8 @@ BODY { font-family : "JetBrains Mono", monospace;  color: snow; background-color
     a {
       font-size: 1rem;
     }
+    .date {
+      display: none;
+    }
   
   }
