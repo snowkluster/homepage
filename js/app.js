@@ -20,7 +20,7 @@ function showTime() {
 	if (mq.matches){
 		dateElement.innerHTML = `<h2>${dayOfWeek}, ${time} | ${dateStr}</h2>`;
 	} else {
-		dateElement.innerHTML = `<h2>${dayOfWeek}, ${time} ${dateStr}</h2>`;
+		dateElement.innerHTML = ``;
 	}
 }
 
