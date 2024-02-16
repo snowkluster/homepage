@@ -26,8 +26,15 @@
   flex: 1;
 }
 .date {
-  padding: auto;
-  margin: auto;
+  padding: 0;
+  margin: 0;
+  position:absolute;
+  top:0;
+  right:0;
+  -webkit-transform:scale(0.8);
+  -moz-transform:scale(0.8);
+  -ms-transform:scale(0.8);
+  transform:scale(0.8);
 }
 
 BODY { font-family : "JetBrains Mono", monospace;  color: snow; background-color: #1a1b26;zoom: 100%;}
